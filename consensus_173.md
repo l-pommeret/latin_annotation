@@ -1,7 +1,4 @@
-# Consensus Jules & Thibault – 173 accords unanimes
-
-Évaluation aveugle de l'annotation syntaxique Latin UD (EvaLatin 2026).
-Seuls les cas où les deux annotateurs sont d'accord sont listés ci-dessous.
+# Consensus annotateurs – 173 accords
 
 ## Résumé
 
