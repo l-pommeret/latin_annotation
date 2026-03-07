@@ -20,10 +20,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *est alius istis noster in siluis locus qui me reposcit hunc petam cursu incito non haesitabit gressus huc omni duce spoliatus ibo*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 2 | `nsubj` |
-| IA | 1 | `nsubj` |
+| Gold | alius (2) | `nsubj` |
+| IA | est (1) | `nsubj` |
 
 ---
 
@@ -31,10 +31,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *est alius istis noster in siluis locus qui me reposcit hunc petam cursu incito non haesitabit gressus huc omni duce spoliatus ibo*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 2 | `conj` |
-| IA | 1 | `conj` |
+| Gold | alius (2) | `conj` |
+| IA | est (1) | `conj` |
 
 ---
 
@@ -42,10 +42,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *est alius istis noster in siluis locus qui me reposcit hunc petam cursu incito non haesitabit gressus huc omni duce spoliatus ibo*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 2 | `conj` |
-| IA | 1 | `conj` |
+| Gold | alius (2) | `conj` |
+| IA | est (1) | `conj` |
 
 ---
 
@@ -53,10 +53,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *est alius istis noster in siluis locus qui me reposcit hunc petam cursu incito non haesitabit gressus huc omni duce spoliatus ibo*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 21 | `obl` |
-| IA | 21 | `obl:arg` |
+| Gold | spoliatus (21) | `obl` |
+| IA | spoliatus (21) | `obl:arg` |
 
 ---
 
@@ -64,10 +64,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *est alius istis noster in siluis locus qui me reposcit hunc petam cursu incito non haesitabit gressus huc omni duce spoliatus ibo*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 2 | `conj` |
-| IA | 1 | `conj` |
+| Gold | alius (2) | `conj` |
+| IA | est (1) | `conj` |
 
 ---
 
@@ -75,10 +75,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *mortem Cithaeron redde et hospitium mihi illud meum restitue ut expirem senex ubi debui infans*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 5 | `cc` |
-| IA | 9 | `cc` |
+| Gold | hospitium (5) | `cc` |
+| IA | restitue (9) | `cc` |
 
 ---
 
@@ -86,10 +86,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *mortem Cithaeron redde et hospitium mihi illud meum restitue ut expirem senex ubi debui infans*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 1 | `conj` |
-| IA | 9 | `obj` |
+| Gold | mortem (1) | `conj` |
+| IA | restitue (9) | `obj` |
 
 ---
 
@@ -97,10 +97,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *mortem Cithaeron redde et hospitium mihi illud meum restitue ut expirem senex ubi debui infans*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 3 | `obl:arg` |
-| IA | 9 | `obl:arg` |
+| Gold | redde (3) | `obl:arg` |
+| IA | restitue (9) | `obl:arg` |
 
 ---
 
@@ -108,10 +108,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *mortem Cithaeron redde et hospitium mihi illud meum restitue ut expirem senex ubi debui infans*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 9 | `obj` |
-| IA | 5 | `det` |
+| Gold | restitue (9) | `obj` |
+| IA | hospitium (5) | `det` |
 
 ---
 
@@ -119,10 +119,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *mortem Cithaeron redde et hospitium mihi illud meum restitue ut expirem senex ubi debui infans*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 7 | `det` |
-| IA | 5 | `det` |
+| Gold | illud (7) | `det` |
+| IA | hospitium (5) | `det` |
 
 ---
 
@@ -130,10 +130,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *semper cruente saeue crudelis ferox cum occidis et cum parcis olim iam tuum est hoc cadauer perage mandatum patris iam et matris*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 2 | `advmod:tmod` |
-| IA | 13 | `advmod:tmod` |
+| Gold | cruente (2) | `advmod:tmod` |
+| IA | tuum (13) | `advmod:tmod` |
 
 ---
 
@@ -141,10 +141,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *sequor sequor iam parce*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 0 | `root` |
-| IA | 4 | `parataxis` |
+| Gold | ROOT (0) | `root` |
+| IA | parce (4) | `parataxis` |
 
 ---
 
@@ -152,10 +152,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *sequor sequor iam parce*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 1 | `flat:redup` |
-| IA | 4 | `parataxis` |
+| Gold | sequor (1) | `flat:redup` |
+| IA | parce (4) | `parataxis` |
 
 ---
 
@@ -163,10 +163,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *sequor sequor iam parce*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 4 | `advmod:tmod` |
-| IA | 4 | `advmod` |
+| Gold | parce (4) | `advmod:tmod` |
+| IA | parce (4) | `advmod` |
 
 ---
 
@@ -174,10 +174,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *sequor sequor iam parce*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 1 | `conj` |
-| IA | 0 | `root` |
+| Gold | sequor (1) | `conj` |
+| IA | ROOT (0) | `root` |
 
 ---
 
@@ -185,10 +185,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *tandem spiritum inimicum expue desertor anime fortis in partem tui*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 4 | `advmod:tmod` |
-| IA | 4 | `advmod` |
+| Gold | expue (4) | `advmod:tmod` |
+| IA | expue (4) | `advmod` |
 
 ---
 
@@ -196,10 +196,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *omitte poenae languidas longae moras mortemque totam admitte quid segnis traho quod uiuo*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 1 | `conj` |
-| IA | 1 | `parataxis` |
+| Gold | omitte (1) | `conj` |
+| IA | omitte (1) | `parataxis` |
 
 ---
 
@@ -207,10 +207,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *nullum facere iam possum scelus*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 4 | `advmod:tmod` |
-| IA | 4 | `advmod` |
+| Gold | possum (4) | `advmod:tmod` |
+| IA | possum (4) | `advmod` |
 
 ---
 
@@ -218,10 +218,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *nullum facere iam possum scelus*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 4 | `obj` |
-| IA | 2 | `obj` |
+| Gold | possum (4) | `obj` |
+| IA | facere (2) | `obj` |
 
 ---
 
@@ -229,10 +229,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *possum miser praedico discede a patre discede uirgo*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 1 | `advcl:pred` |
-| IA | 3 | `advcl:pred` |
+| Gold | possum (1) | `advcl:pred` |
+| IA | praedico (3) | `advcl:pred` |
 
 ---
 
@@ -240,10 +240,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *possum miser praedico discede a patre discede uirgo*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 4 | `vocative` |
-| IA | 7 | `vocative` |
+| Gold | discede (4) | `vocative` |
+| IA | discede (7) | `vocative` |
 
 ---
 
@@ -251,10 +251,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *timeo post matrem omnia*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 1 | `obl:lmod` |
-| IA | 1 | `obl` |
+| Gold | timeo (1) | `obl:lmod` |
+| IA | timeo (1) | `obl` |
 
 ---
 
@@ -262,10 +262,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *uis nulla genitor a tuo nostram manum corpore resoluet nemo me comitem tibi eripiet umquam*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 9 | `obl` |
-| IA | 9 | `obl:lmod` |
+| Gold | resoluet (9) | `obl` |
+| IA | resoluet (9) | `obl:lmod` |
 
 ---
 
@@ -273,10 +273,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *uis nulla genitor a tuo nostram manum corpore resoluet nemo me comitem tibi eripiet umquam*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 14 | `advmod:tmod` |
-| IA | 14 | `advmod` |
+| Gold | eripiet (14) | `advmod:tmod` |
+| IA | eripiet (14) | `advmod` |
 
 ---
 
@@ -284,10 +284,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *Labdaci claram domum opulenta ferro regna germani petant pars summa magno patris e regno mea est pater ipse*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 8 | `obl` |
-| IA | 4 | `obl` |
+| Gold | petant (8) | `obl` |
+| IA | opulenta (4) | `obl` |
 
 ---
 
@@ -295,10 +295,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *non hunc auferet frater mihi Thebana rapto sceptra qui regno tenet non hunc cateruas alter Argolicas agens non si reuulso Iuppiter mundo tonet mediumque nostros fulmen in nexus cadat manum hanc remittam*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 10 | `acl` |
-| IA | 11 | `advcl:abs` |
+| Gold | regno (10) | `acl` |
+| IA | tenet (11) | `advcl:abs` |
 
 ---
 
@@ -306,10 +306,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *non hunc auferet frater mihi Thebana rapto sceptra qui regno tenet non hunc cateruas alter Argolicas agens non si reuulso Iuppiter mundo tonet mediumque nostros fulmen in nexus cadat manum hanc remittam*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 11 | `obl` |
-| IA | 7 | `nsubj:pass` |
+| Gold | tenet (11) | `obl` |
+| IA | rapto (7) | `nsubj:pass` |
 
 ---
 
@@ -317,10 +317,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *non hunc auferet frater mihi Thebana rapto sceptra qui regno tenet non hunc cateruas alter Argolicas agens non si reuulso Iuppiter mundo tonet mediumque nostros fulmen in nexus cadat manum hanc remittam*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 15 | `acl` |
-| IA | 15 | `advcl:pred` |
+| Gold | alter (15) | `acl` |
+| IA | alter (15) | `advcl:pred` |
 
 ---
 
@@ -328,10 +328,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *non hunc auferet frater mihi Thebana rapto sceptra qui regno tenet non hunc cateruas alter Argolicas agens non si reuulso Iuppiter mundo tonet mediumque nostros fulmen in nexus cadat manum hanc remittam*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 33 | `nsubj` |
-| IA | 31 | `det` |
+| Gold | remittam (33) | `nsubj` |
+| IA | manum (31) | `det` |
 
 ---
 
@@ -339,10 +339,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *non obsto sed praecedo quo uis utere duce me duobus omnis eligitur uia perire sine me non potes mecum potes*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 6 | `mark` |
-| IA | 6 | `obl:lmod` |
+| Gold | uis (6) | `mark` |
+| IA | uis (6) | `obl:lmod` |
 
 ---
 
@@ -350,10 +350,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *non obsto sed praecedo quo uis utere duce me duobus omnis eligitur uia perire sine me non potes mecum potes*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 12 | `conj:expl` |
-| IA | 2 | `conj` |
+| Gold | eligitur (12) | `conj:expl` |
+| IA | obsto (2) | `conj` |
 
 ---
 
@@ -361,10 +361,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *non obsto sed praecedo quo uis utere duce me duobus omnis eligitur uia perire sine me non potes mecum potes*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 18 | `conj` |
-| IA | 2 | `conj` |
+| Gold | potes (18) | `conj` |
+| IA | obsto (2) | `conj` |
 
 ---
 
@@ -372,10 +372,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *hic alta rupes arduo surgit iugo spectatque longe spatia subiecti maris uis hanc petamus*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 7 | `advmod:lmod` |
-| IA | 7 | `advmod` |
+| Gold | spectat (7) | `advmod:lmod` |
+| IA | spectat (7) | `advmod` |
 
 ---
 
@@ -383,10 +383,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *hic alta rupes arduo surgit iugo spectatque longe spatia subiecti maris uis hanc petamus*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 12 | `acl` |
-| IA | 12 | `amod` |
+| Gold | maris (12) | `acl` |
+| IA | maris (12) | `amod` |
 
 ---
 
@@ -394,10 +394,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *nudus hic pendet silex hic scissa tellus faucibus ruptis hiat uis hanc petamus*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 7 | `acl` |
-| IA | 7 | `amod` |
+| Gold | tellus (7) | `acl` |
+| IA | tellus (7) | `amod` |
 
 ---
 
@@ -405,10 +405,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *nudus hic pendet silex hic scissa tellus faucibus ruptis hiat uis hanc petamus*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 8 | `acl` |
-| IA | 8 | `amod` |
+| Gold | faucibus (8) | `acl` |
+| IA | faucibus (8) | `amod` |
 
 ---
 
@@ -416,10 +416,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *hic rapax torrens cadit partesque lapsi montis exesas rotat in hunc ruamus*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 8 | `acl` |
-| IA | 8 | `amod` |
+| Gold | montis (8) | `acl` |
+| IA | montis (8) | `amod` |
 
 ---
 
@@ -427,10 +427,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *hic rapax torrens cadit partesque lapsi montis exesas rotat in hunc ruamus*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 5 | `acl` |
-| IA | 5 | `amod` |
+| Gold | partes (5) | `acl` |
+| IA | partes (5) | `amod` |
 
 ---
 
@@ -438,10 +438,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *dum prior quo uis eo*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 4 | `mark` |
-| IA | 4 | `advmod:lmod` |
+| Gold | uis (4) | `mark` |
+| IA | uis (4) | `advmod:lmod` |
 
 ---
 
@@ -449,10 +449,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *extingui cupis uotumque genitor maximum mors est tibi*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 3 | `obl` |
-| IA | 3 | `obl:arg` |
+| Gold | uotum (3) | `obl` |
+| IA | uotum (3) | `obl:arg` |
 
 ---
 
@@ -460,10 +460,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *sed flecte mentem pectus antiquum aduoca uictasque magno robore aerumnas doma resiste tantis in malis uinci mori est*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 11 | `acl` |
-| IA | 11 | `amod` |
+| Gold | aerumnas (11) | `acl` |
+| IA | aerumnas (11) | `amod` |
 
 ---
 
@@ -471,10 +471,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *sed flecte mentem pectus antiquum aduoca uictasque magno robore aerumnas doma resiste tantis in malis uinci mori est*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 16 | `det` |
-| IA | 16 | `amod` |
+| Gold | malis (16) | `det` |
+| IA | malis (16) | `amod` |
 
 ---
 
@@ -482,10 +482,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *sed flecte mentem pectus antiquum aduoca uictasque magno robore aerumnas doma resiste tantis in malis uinci mori est*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 18 | `csubj` |
-| IA | 18 | `nsubj` |
+| Gold | mori (18) | `csubj` |
+| IA | mori (18) | `nsubj` |
 
 ---
 
@@ -493,10 +493,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *unde ista generi uirgo dissimilis suo*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 4 | `advmod` |
-| IA | 5 | `advmod:lmod` |
+| Gold | uirgo (4) | `advmod` |
+| IA | dissimilis (5) | `advmod:lmod` |
 
 ---
 
@@ -504,10 +504,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *unde ista generi uirgo dissimilis suo*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 4 | `amod` |
-| IA | 0 | `root` |
+| Gold | uirgo (4) | `amod` |
+| IA | ROOT (0) | `root` |
 
 ---
 
@@ -515,10 +515,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *non esset umquam fata bene noui mea nisi ut noceret*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 0 | `root` |
-| IA | 2 | `advmod` |
+| Gold | ROOT (0) | `root` |
+| IA | esset (2) | `advmod` |
 
 ---
 
@@ -526,10 +526,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *non esset umquam fata bene noui mea nisi ut noceret*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 3 | `parataxis` |
-| IA | 2 | `csubj` |
+| Gold | umquam (3) | `parataxis` |
+| IA | esset (2) | `csubj` |
 
 ---
 
@@ -537,10 +537,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *ipsa se in leges nouas natura uertit regeret in fontem citas reuolutus undas amnis et noctem afferet Phoebea lampas Hesperus faciet diem ut ad miserias aliquid accedat meas pii quoque erimus*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 27 | `obl:lmod` |
-| IA | 27 | `obl:arg` |
+| Gold | accedat (27) | `obl:lmod` |
+| IA | accedat (27) | `obl:arg` |
 
 ---
 
@@ -548,10 +548,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *unica Oedipodae est salus non esse saluum*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 4 | `obl:arg` |
-| IA | 4 | `nmod` |
+| Gold | salus (4) | `obl:arg` |
+| IA | salus (4) | `nmod` |
 
 ---
 
@@ -559,10 +559,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *unica Oedipodae est salus non esse saluum*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 1 | `cop` |
-| IA | 4 | `cop` |
+| Gold | unica (1) | `cop` |
+| IA | salus (4) | `cop` |
 
 ---
 
@@ -570,10 +570,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *liceat ulcisci patrem adhuc inultum*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 5 | `advmod:tmod` |
-| IA | 5 | `advmod` |
+| Gold | inultum (5) | `advmod:tmod` |
+| IA | inultum (5) | `advmod` |
 
 ---
 
@@ -581,10 +581,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *liceat ulcisci patrem adhuc inultum*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 3 | `acl` |
-| IA | 3 | `amod` |
+| Gold | patrem (3) | `acl` |
+| IA | patrem (3) | `amod` |
 
 ---
 
@@ -592,10 +592,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *dextra quid cessas iners exigere poenas*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 1 | `amod` |
-| IA | 3 | `advcl:pred` |
+| Gold | dextra (1) | `amod` |
+| IA | cessas (3) | `advcl:pred` |
 
 ---
 
@@ -603,10 +603,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *quicquid exactum est adhuc matri dedisti*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 6 | `ccomp` |
-| IA | 6 | `obj` |
+| Gold | dedisti (6) | `ccomp` |
+| IA | dedisti (6) | `obj` |
 
 ---
 
@@ -614,10 +614,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *quicquid exactum est adhuc matri dedisti*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 6 | `advmod:tmod` |
-| IA | 6 | `advmod` |
+| Gold | dedisti (6) | `advmod:tmod` |
+| IA | dedisti (6) | `advmod` |
 
 ---
 
@@ -625,10 +625,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *mitte genitoris manum animosa uirgo funus extendis meum longasque uiui ducis exequias patris*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 1 | `conj` |
-| IA | 1 | `parataxis` |
+| Gold | mitte (1) | `conj` |
+| IA | mitte (1) | `parataxis` |
 
 ---
 
@@ -636,10 +636,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *mitte genitoris manum animosa uirgo funus extendis meum longasque uiui ducis exequias patris*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 12 | `cc` |
-| IA | 13 | `cc` |
+| Gold | ducis (12) | `cc` |
+| IA | exequias (13) | `cc` |
 
 ---
 
@@ -647,10 +647,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *mitte genitoris manum animosa uirgo funus extendis meum longasque uiui ducis exequias patris*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 14 | `amod` |
-| IA | 12 | `amod` |
+| Gold | patris (14) | `amod` |
+| IA | ducis (12) | `amod` |
 
 ---
 
@@ -658,10 +658,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *mitte genitoris manum animosa uirgo funus extendis meum longasque uiui ducis exequias patris*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 1 | `conj` |
-| IA | 13 | `nmod` |
+| Gold | mitte (1) | `conj` |
+| IA | exequias (13) | `nmod` |
 
 ---
 
@@ -669,10 +669,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *mitte genitoris manum animosa uirgo funus extendis meum longasque uiui ducis exequias patris*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 12 | `obj` |
-| IA | 6 | `conj` |
+| Gold | ducis (12) | `obj` |
+| IA | funus (6) | `conj` |
 
 ---
 
@@ -680,10 +680,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *mitte genitoris manum animosa uirgo funus extendis meum longasque uiui ducis exequias patris*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 13 | `nmod` |
-| IA | 12 | `appos` |
+| Gold | exequias (13) | `nmod` |
+| IA | ducis (12) | `appos` |
 
 ---
 
@@ -691,10 +691,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *aliquando terra corpus inuisum tege peccas honesta mente pietatem uocas patrem insepultum trahere*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 5 | `advmod:tmod` |
-| IA | 5 | `advmod` |
+| Gold | tege (5) | `advmod:tmod` |
+| IA | tege (5) | `advmod` |
 
 ---
 
@@ -702,10 +702,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *aliquando terra corpus inuisum tege peccas honesta mente pietatem uocas patrem insepultum trahere*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 10 | `xcomp` |
-| IA | 10 | `obj` |
+| Gold | uocas (10) | `xcomp` |
+| IA | uocas (10) | `obj` |
 
 ---
 
@@ -713,10 +713,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *aliquando terra corpus inuisum tege peccas honesta mente pietatem uocas patrem insepultum trahere*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 10 | `ccomp` |
-| IA | 10 | `xcomp` |
+| Gold | uocas (10) | `ccomp` |
+| IA | uocas (10) | `xcomp` |
 
 ---
 
@@ -724,10 +724,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *qui cogit mori nolentem in aequo est quique properantem impedit nec tamen in aequo est alterum grauius reor occidere est uetare cupientem mori malo imperari quam eripi mortem mihi*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 6 | `csubj:relcl` |
-| IA | 6 | `nsubj` |
+| Gold | aequo (6) | `csubj:relcl` |
+| IA | aequo (6) | `nsubj` |
 
 ---
 
@@ -735,10 +735,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *qui cogit mori nolentem in aequo est quique properantem impedit nec tamen in aequo est alterum grauius reor occidere est uetare cupientem mori malo imperari quam eripi mortem mihi*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 2 | `conj` |
-| IA | 15 | `nsubj` |
+| Gold | cogit (2) | `conj` |
+| IA | aequo (15) | `nsubj` |
 
 ---
 
@@ -746,10 +746,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *qui cogit mori nolentem in aequo est quique properantem impedit nec tamen in aequo est alterum grauius reor occidere est uetare cupientem mori malo imperari quam eripi mortem mihi*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 15 | `conj:expl` |
-| IA | 15 | `conj` |
+| Gold | aequo (15) | `conj:expl` |
+| IA | aequo (15) | `conj` |
 
 ---
 
@@ -757,10 +757,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *qui cogit mori nolentem in aequo est quique properantem impedit nec tamen in aequo est alterum grauius reor occidere est uetare cupientem mori malo imperari quam eripi mortem mihi*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 20 | `csubj` |
-| IA | 19 | `ccomp` |
+| Gold | occidere (20) | `csubj` |
+| IA | reor (19) | `ccomp` |
 
 ---
 
@@ -768,10 +768,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *qui cogit mori nolentem in aequo est quique properantem impedit nec tamen in aequo est alterum grauius reor occidere est uetare cupientem mori malo imperari quam eripi mortem mihi*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 25 | `ccomp` |
-| IA | 25 | `xcomp` |
+| Gold | malo (25) | `ccomp` |
+| IA | malo (25) | `xcomp` |
 
 ---
 
@@ -779,10 +779,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *qui cogit mori nolentem in aequo est quique properantem impedit nec tamen in aequo est alterum grauius reor occidere est uetare cupientem mori malo imperari quam eripi mortem mihi*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 26 | `advcl:cmp` |
-| IA | 26 | `advcl` |
+| Gold | imperari (26) | `advcl:cmp` |
+| IA | imperari (26) | `advcl` |
 
 ---
 
@@ -790,10 +790,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *desiste coepto uirgo ius uitae ac necis meae penes me est*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 1 | `obl` |
-| IA | 1 | `obl:arg` |
+| Gold | desiste (1) | `obl` |
+| IA | desiste (1) | `obl:arg` |
 
 ---
 
@@ -801,10 +801,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *si fida es comes ensem parenti trade sed notum nece ensem paterna*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 11 | `amod` |
-| IA | 11 | `acl` |
+| Gold | ensem (11) | `amod` |
+| IA | ensem (11) | `acl` |
 
 ---
 
@@ -812,10 +812,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *si fida es comes ensem parenti trade sed notum nece ensem paterna*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 5 | `conj:expl` |
-| IA | 5 | `conj` |
+| Gold | ensem (5) | `conj:expl` |
+| IA | ensem (5) | `conj` |
 
 ---
 
@@ -823,10 +823,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *an gnati tenent cum regno et illum*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 7 | `advmod:emph` |
-| IA | 7 | `advmod` |
+| Gold | illum (7) | `advmod:emph` |
+| IA | illum (7) | `advmod` |
 
 ---
 
@@ -834,10 +834,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *flammas potius et uastum aggerem compone in altos ipse me immittam rogos haerebo ad ignes funebrem escendam struem pectusque soluam durum et in cinerem dabo hoc quicquid in me uiuit*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 11 | `obl` |
-| IA | 11 | `obl:lmod` |
+| Gold | immittam (11) | `obl` |
+| IA | immittam (11) | `obl:lmod` |
 
 ---
 
@@ -845,10 +845,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *flammas potius et uastum aggerem compone in altos ipse me immittam rogos haerebo ad ignes funebrem escendam struem pectusque soluam durum et in cinerem dabo hoc quicquid in me uiuit*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 11 | `conj` |
-| IA | 6 | `conj` |
+| Gold | immittam (11) | `conj` |
+| IA | compone (6) | `conj` |
 
 ---
 
@@ -856,10 +856,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *flammas potius et uastum aggerem compone in altos ipse me immittam rogos haerebo ad ignes funebrem escendam struem pectusque soluam durum et in cinerem dabo hoc quicquid in me uiuit*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 13 | `obl` |
-| IA | 13 | `obl:lmod` |
+| Gold | haerebo (13) | `obl` |
+| IA | haerebo (13) | `obl:lmod` |
 
 ---
 
@@ -867,10 +867,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *flammas potius et uastum aggerem compone in altos ipse me immittam rogos haerebo ad ignes funebrem escendam struem pectusque soluam durum et in cinerem dabo hoc quicquid in me uiuit*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 11 | `conj` |
-| IA | 6 | `conj` |
+| Gold | immittam (11) | `conj` |
+| IA | compone (6) | `conj` |
 
 ---
 
@@ -878,10 +878,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *flammas potius et uastum aggerem compone in altos ipse me immittam rogos haerebo ad ignes funebrem escendam struem pectusque soluam durum et in cinerem dabo hoc quicquid in me uiuit*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 11 | `conj` |
-| IA | 6 | `conj` |
+| Gold | immittam (11) | `conj` |
+| IA | compone (6) | `conj` |
 
 ---
 
@@ -889,10 +889,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *ubi saeuum est mare*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 0 | `root` |
-| IA | 2 | `advmod` |
+| Gold | ROOT (0) | `root` |
+| IA | saeuum (2) | `advmod` |
 
 ---
 
@@ -900,10 +900,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *ubi saeuum est mare*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 4 | `amod` |
-| IA | 0 | `root` |
+| Gold | mare (4) | `amod` |
+| IA | ROOT (0) | `root` |
 
 ---
 
@@ -911,10 +911,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *ubi saeuum est mare*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 1 | `cop` |
-| IA | 2 | `cop` |
+| Gold | ubi (1) | `cop` |
+| IA | saeuum (2) | `cop` |
 
 ---
 
@@ -922,10 +922,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *ubi saeuum est mare*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 1 | `nsubj` |
-| IA | 2 | `nsubj` |
+| Gold | ubi (1) | `nsubj` |
+| IA | saeuum (2) | `nsubj` |
 
 ---
 
@@ -933,10 +933,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *duc ubi sit altis prorutum saxis iugum ubi torua rapidus ducat Ismenos uada duc ubi ferae sunt ubi fretum ubi praeceps locus si dux es illuc ire morituro placet ubi sedit alta rupe semifero dolos Sphinx ore nectens*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 7 | `cop` |
-| IA | 5 | `aux:pass` |
+| Gold | iugum (7) | `cop` |
+| IA | prorutum (5) | `aux:pass` |
 
 ---
 
@@ -944,10 +944,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *duc ubi sit altis prorutum saxis iugum ubi torua rapidus ducat Ismenos uada duc ubi ferae sunt ubi fretum ubi praeceps locus si dux es illuc ire morituro placet ubi sedit alta rupe semifero dolos Sphinx ore nectens*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 7 | `acl` |
-| IA | 1 | `advcl` |
+| Gold | iugum (7) | `acl` |
+| IA | duc (1) | `advcl` |
 
 ---
 
@@ -955,10 +955,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *duc ubi sit altis prorutum saxis iugum ubi torua rapidus ducat Ismenos uada duc ubi ferae sunt ubi fretum ubi praeceps locus si dux es illuc ire morituro placet ubi sedit alta rupe semifero dolos Sphinx ore nectens*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 1 | `advcl` |
-| IA | 5 | `nsubj:pass` |
+| Gold | duc (1) | `advcl` |
+| IA | prorutum (5) | `nsubj:pass` |
 
 ---
 
@@ -966,10 +966,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *duc ubi sit altis prorutum saxis iugum ubi torua rapidus ducat Ismenos uada duc ubi ferae sunt ubi fretum ubi praeceps locus si dux es illuc ire morituro placet ubi sedit alta rupe semifero dolos Sphinx ore nectens*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 14 | `advcl` |
-| IA | 17 | `nsubj` |
+| Gold | duc (14) | `advcl` |
+| IA | sunt (17) | `nsubj` |
 
 ---
 
@@ -977,10 +977,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *duc ubi sit altis prorutum saxis iugum ubi torua rapidus ducat Ismenos uada duc ubi ferae sunt ubi fretum ubi praeceps locus si dux es illuc ire morituro placet ubi sedit alta rupe semifero dolos Sphinx ore nectens*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 27 | `advmod:lmod` |
-| IA | 27 | `advmod` |
+| Gold | ire (27) | `advmod:lmod` |
+| IA | ire (27) | `advmod` |
 
 ---
 
@@ -988,10 +988,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *duc ubi sit altis prorutum saxis iugum ubi torua rapidus ducat Ismenos uada duc ubi ferae sunt ubi fretum ubi praeceps locus si dux es illuc ire morituro placet ubi sedit alta rupe semifero dolos Sphinx ore nectens*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 31 | `obl` |
-| IA | 31 | `obl:lmod` |
+| Gold | sedit (31) | `obl` |
+| IA | sedit (31) | `obl:lmod` |
 
 ---
 
@@ -999,10 +999,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *dirige huc gressus pedum hic siste patrem*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 1 | `advmod:tmod` |
-| IA | 1 | `advmod:lmod` |
+| Gold | dirige (1) | `advmod:tmod` |
+| IA | dirige (1) | `advmod:lmod` |
 
 ---
 
@@ -1010,10 +1010,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *hoc saxum insidens obscura nostrae uerba fortunae loquar quae nemo soluat quisquis Assyrio loca possessa regi scindis et Cadmi nemus serpente notum sacra quo Dirce latet supplex adoras quisquis Eurotan bibis Spartamque fratre nobilem gemino colis quique Elin et Parnason et Boeotios colonus agros uberis tondes soli aduerte mentem*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 17 | `obl` |
-| IA | 15 | `obl:agent` |
+| Gold | scindis (17) | `obl` |
+| IA | possessa (15) | `obl:agent` |
 
 ---
 
@@ -1021,10 +1021,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *hoc saxum insidens obscura nostrae uerba fortunae loquar quae nemo soluat quisquis Assyrio loca possessa regi scindis et Cadmi nemus serpente notum sacra quo Dirce latet supplex adoras quisquis Eurotan bibis Spartamque fratre nobilem gemino colis quique Elin et Parnason et Boeotios colonus agros uberis tondes soli aduerte mentem*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 50 | `csubj:relcl` |
-| IA | 50 | `advcl` |
+| Gold | aduerte (50) | `csubj:relcl` |
+| IA | aduerte (50) | `advcl` |
 
 ---
 
@@ -1032,10 +1032,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *hoc saxum insidens obscura nostrae uerba fortunae loquar quae nemo soluat quisquis Assyrio loca possessa regi scindis et Cadmi nemus serpente notum sacra quo Dirce latet supplex adoras quisquis Eurotan bibis Spartamque fratre nobilem gemino colis quique Elin et Parnason et Boeotios colonus agros uberis tondes soli aduerte mentem*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 20 | `amod` |
-| IA | 20 | `acl` |
+| Gold | nemus (20) | `amod` |
+| IA | nemus (20) | `acl` |
 
 ---
 
@@ -1043,10 +1043,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *hoc saxum insidens obscura nostrae uerba fortunae loquar quae nemo soluat quisquis Assyrio loca possessa regi scindis et Cadmi nemus serpente notum sacra quo Dirce latet supplex adoras quisquis Eurotan bibis Spartamque fratre nobilem gemino colis quique Elin et Parnason et Boeotios colonus agros uberis tondes soli aduerte mentem*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 26 | `mark` |
-| IA | 26 | `obl:lmod` |
+| Gold | latet (26) | `mark` |
+| IA | latet (26) | `obl:lmod` |
 
 ---
 
@@ -1054,10 +1054,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *hoc saxum insidens obscura nostrae uerba fortunae loquar quae nemo soluat quisquis Assyrio loca possessa regi scindis et Cadmi nemus serpente notum sacra quo Dirce latet supplex adoras quisquis Eurotan bibis Spartamque fratre nobilem gemino colis quique Elin et Parnason et Boeotios colonus agros uberis tondes soli aduerte mentem*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 17 | `conj` |
-| IA | 48 | `advcl:pred` |
+| Gold | scindis (17) | `conj` |
+| IA | tondes (48) | `advcl:pred` |
 
 ---
 
@@ -1065,10 +1065,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *hoc saxum insidens obscura nostrae uerba fortunae loquar quae nemo soluat quisquis Assyrio loca possessa regi scindis et Cadmi nemus serpente notum sacra quo Dirce latet supplex adoras quisquis Eurotan bibis Spartamque fratre nobilem gemino colis quique Elin et Parnason et Boeotios colonus agros uberis tondes soli aduerte mentem*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 46 | `nsubj` |
-| IA | 46 | `nmod` |
+| Gold | agros (46) | `nsubj` |
+| IA | agros (46) | `nmod` |
 
 ---
 
@@ -1076,10 +1076,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *hoc saxum insidens obscura nostrae uerba fortunae loquar quae nemo soluat quisquis Assyrio loca possessa regi scindis et Cadmi nemus serpente notum sacra quo Dirce latet supplex adoras quisquis Eurotan bibis Spartamque fratre nobilem gemino colis quique Elin et Parnason et Boeotios colonus agros uberis tondes soli aduerte mentem*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 8 | `conj` |
-| IA | 8 | `parataxis` |
+| Gold | loquar (8) | `conj` |
+| IA | loquar (8) | `parataxis` |
 
 ---
 
@@ -1087,10 +1087,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *saeua Thebarum lues luctifica caecis uerba committens modis quid simile posuit*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 3 | `acl` |
-| IA | 11 | `advcl:pred` |
+| Gold | lues (3) | `acl` |
+| IA | posuit (11) | `advcl:pred` |
 
 ---
 
@@ -1098,10 +1098,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *quid tam inextricabile*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 0 | `root` |
-| IA | 3 | `nsubj` |
+| Gold | ROOT (0) | `root` |
+| IA | inextricabile (3) | `nsubj` |
 
 ---
 
@@ -1109,10 +1109,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *quid tam inextricabile*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 1 | `amod` |
-| IA | 0 | `root` |
+| Gold | quid (1) | `amod` |
+| IA | ROOT (0) | `root` |
 
 ---
 
@@ -1120,10 +1120,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *aui gener patrisque riualis sui frater suorum liberum et fratrum parens uno auia partu liberos peperit uiro sibi et nepotes*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 0 | `root` |
-| IA | 17 | `advcl:pred` |
+| Gold | ROOT (0) | `root` |
+| IA | peperit (17) | `advcl:pred` |
 
 ---
 
@@ -1131,10 +1131,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *aui gener patrisque riualis sui frater suorum liberum et fratrum parens uno auia partu liberos peperit uiro sibi et nepotes*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 9 | `det` |
-| IA | 9 | `nmod` |
+| Gold | liberum (9) | `det` |
+| IA | liberum (9) | `nmod` |
 
 ---
 
@@ -1142,10 +1142,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *ego ipse uictae spolia qui Sphingis tuli haerebo fati tardus interpres mei*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 6 | `acl` |
-| IA | 6 | `amod` |
+| Gold | Sphingis (6) | `acl` |
+| IA | Sphingis (6) | `amod` |
 
 ---
 
@@ -1155,10 +1155,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *et tamen minimum quod potest haberi de cognitione rerum altissimarum , desiderabilius est quam certissima cognitio quae habetur de minimis rebus , ut dicitur in xi de animalibus .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 5 | `nsubj` |
-| IA | 5 | `nsubj:pass` |
+| Gold | potest (5) | `nsubj` |
+| IA | potest (5) | `nsubj:pass` |
 
 ---
 
@@ -1166,10 +1166,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *et tamen minimum quod potest haberi de cognitione rerum altissimarum , desiderabilius est quam certissima cognitio quae habetur de minimis rebus , ut dicitur in xi de animalibus .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 12 | `advcl:cmp` |
-| IA | 12 | `advcl` |
+| Gold | desiderabilius (12) | `advcl:cmp` |
+| IA | desiderabilius (12) | `advcl` |
 
 ---
 
@@ -1177,10 +1177,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *ad secundum dicendum quod haec scientia accipere potest aliquid a philosophicis disciplinis , non quod ex necessitate eis indigeat , sed ad maiorem manifestationem eorum quae in hac scientia traduntur .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 7 | `obl:agent` |
-| IA | 7 | `obl:arg` |
+| Gold | accipere (7) | `obl:agent` |
+| IA | accipere (7) | `obl:arg` |
 
 ---
 
@@ -1188,10 +1188,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *non enim accipit sua principia ab aliis scientiis , sed immediate a deo per reuelationem .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 3 | `obl:agent` |
-| IA | 3 | `obl:arg` |
+| Gold | accipit (3) | `obl:agent` |
+| IA | accipit (3) | `obl:arg` |
 
 ---
 
@@ -1199,10 +1199,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *et ideo non accipit ab aliis scientiis tanquam a superioribus , sed utitur eis tanquam inferioribus et ancillis ; sicut architectonicae utuntur subministrantibus , ut ciuilis militari .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 4 | `obl:agent` |
-| IA | 4 | `obl:arg` |
+| Gold | accipit (4) | `obl:agent` |
+| IA | accipit (4) | `obl:arg` |
 
 ---
 
@@ -1210,10 +1210,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *et ideo non accipit ab aliis scientiis tanquam a superioribus , sed utitur eis tanquam inferioribus et ancillis ; sicut architectonicae utuntur subministrantibus , ut ciuilis militari .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 4 | `advcl:cmp` |
-| IA | 4 | `advcl` |
+| Gold | accipit (4) | `advcl:cmp` |
+| IA | accipit (4) | `advcl` |
 
 ---
 
@@ -1221,10 +1221,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *et ideo non accipit ab aliis scientiis tanquam a superioribus , sed utitur eis tanquam inferioribus et ancillis ; sicut architectonicae utuntur subministrantibus , ut ciuilis militari .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 13 | `advcl:cmp` |
-| IA | 13 | `advcl` |
+| Gold | utitur (13) | `advcl:cmp` |
+| IA | utitur (13) | `advcl` |
 
 ---
 
@@ -1232,10 +1232,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *et ideo non accipit ab aliis scientiis tanquam a superioribus , sed utitur eis tanquam inferioribus et ancillis ; sicut architectonicae utuntur subministrantibus , ut ciuilis militari .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 4 | `advcl:cmp` |
-| IA | 13 | `advcl` |
+| Gold | accipit (4) | `advcl:cmp` |
+| IA | utitur (13) | `advcl` |
 
 ---
 
@@ -1243,10 +1243,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *et ideo non accipit ab aliis scientiis tanquam a superioribus , sed utitur eis tanquam inferioribus et ancillis ; sicut architectonicae utuntur subministrantibus , ut ciuilis militari .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 22 | `advcl:cmp` |
-| IA | 22 | `advcl` |
+| Gold | utuntur (22) | `advcl:cmp` |
+| IA | utuntur (22) | `advcl` |
 
 ---
 
@@ -1254,10 +1254,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *qui ex his quae per naturalem rationem ( ex qua procedunt aliae scientiae ) cognoscuntur , facilius manuducitur in ea quae sunt supra rationem , quae in hac scientia traduntur .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 24 | `nsubj` |
-| IA | 22 | `nsubj` |
+| Gold | rationem (24) | `nsubj` |
+| IA | sunt (22) | `nsubj` |
 
 ---
 
@@ -1265,10 +1265,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *qui ex his quae per naturalem rationem ( ex qua procedunt aliae scientiae ) cognoscuntur , facilius manuducitur in ea quae sunt supra rationem , quae in hac scientia traduntur .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 24 | `cop` |
-| IA | 20 | `acl:relcl` |
+| Gold | rationem (24) | `cop` |
+| IA | ea (20) | `acl:relcl` |
 
 ---
 
@@ -1276,10 +1276,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *uidetur quod haec doctrina non sit sapientia .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 1 | `csubj:pass` |
-| IA | 1 | `csubj` |
+| Gold | uidetur (1) | `csubj:pass` |
+| IA | uidetur (1) | `csubj` |
 
 ---
 
@@ -1287,10 +1287,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *nulla enim doctrina quae supponit sua principia aliunde , digna est nomine sapientiae , quia sapientis est ordinare , et non ordinari ( i metaphys. ) .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 10 | `obl` |
-| IA | 10 | `obl:arg` |
+| Gold | digna (10) | `obl` |
+| IA | digna (10) | `obl:arg` |
 
 ---
 
@@ -1298,10 +1298,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *sed haec doctrina supponit principia sua aliunde , ut ex dictis patet .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 11 | `mark` |
-| IA | 11 | `case` |
+| Gold | dictis (11) | `mark` |
+| IA | dictis (11) | `case` |
 
 ---
 
@@ -1309,10 +1309,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *praeterea , ad sapientiam pertinet probare principia aliarum scientiarum , unde ut caput dicitur scientiarum , ut ui ethic. patet .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 1 | `punct` |
-| IA | 5 | `punct` |
+| Gold | praeterea (1) | `punct` |
+| IA | pertinet (5) | `punct` |
 
 ---
 
@@ -1320,10 +1320,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *praeterea , ad sapientiam pertinet probare principia aliarum scientiarum , unde ut caput dicitur scientiarum , ut ui ethic. patet .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 14 | `advmod` |
-| IA | 14 | `advmod:lmod` |
+| Gold | dicitur (14) | `advmod` |
+| IA | dicitur (14) | `advmod:lmod` |
 
 ---
 
@@ -1331,10 +1331,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *praeterea , ad sapientiam pertinet probare principia aliarum scientiarum , unde ut caput dicitur scientiarum , ut ui ethic. patet .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 5 | `conj` |
-| IA | 5 | `advcl` |
+| Gold | pertinet (5) | `conj` |
+| IA | pertinet (5) | `advcl` |
 
 ---
 
@@ -1342,10 +1342,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *ergo non est sapientia .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 4 | `discourse` |
-| IA | 4 | `advmod` |
+| Gold | sapientia (4) | `discourse` |
+| IA | sapientia (4) | `advmod` |
 
 ---
 
@@ -1353,10 +1353,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *ergo non est sapientia .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 4 | `advmod:neg` |
-| IA | 4 | `advmod` |
+| Gold | sapientia (4) | `advmod:neg` |
+| IA | sapientia (4) | `advmod` |
 
 ---
 
@@ -1364,10 +1364,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *praeterea , haec doctrina per studium acquiritur .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 1 | `punct` |
-| IA | 7 | `punct` |
+| Gold | praeterea (1) | `punct` |
+| IA | acquiritur (7) | `punct` |
 
 ---
 
@@ -1375,10 +1375,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *sapientia autem per infusionem habetur , unde inter septem dona spiritus sancti connumeratur , ut patet isaiae xi .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 13 | `advmod` |
-| IA | 13 | `advmod:lmod` |
+| Gold | connumeratur (13) | `advmod` |
+| IA | connumeratur (13) | `advmod:lmod` |
 
 ---
 
@@ -1386,10 +1386,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *ergo haec doctrina non est sapientia .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 6 | `discourse` |
-| IA | 6 | `advmod` |
+| Gold | sapientia (6) | `discourse` |
+| IA | sapientia (6) | `advmod` |
 
 ---
 
@@ -1397,10 +1397,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *sed contra est quod dicitur deut. iu , in principio legis , haec est nostra sapientia et intellectus coram populis .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 5 | `mark` |
-| IA | 5 | `nsubj:pass` |
+| Gold | dicitur (5) | `mark` |
+| IA | dicitur (5) | `nsubj:pass` |
 
 ---
 
@@ -1408,10 +1408,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *sed contra est quod dicitur deut. iu , in principio legis , haec est nostra sapientia et intellectus coram populis .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 2 | `csubj` |
-| IA | 3 | `csubj:relcl` |
+| Gold | contra (2) | `csubj` |
+| IA | est (3) | `csubj:relcl` |
 
 ---
 
@@ -1419,10 +1419,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *sed contra est quod dicitur deut. iu , in principio legis , haec est nostra sapientia et intellectus coram populis .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 7 | `nmod` |
-| IA | 5 | `obl` |
+| Gold | iu (7) | `nmod` |
+| IA | dicitur (5) | `obl` |
 
 ---
 
@@ -1430,10 +1430,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *sed contra est quod dicitur deut. iu , in principio legis , haec est nostra sapientia et intellectus coram populis .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 5 | `obl` |
-| IA | 6 | `nummod` |
+| Gold | dicitur (5) | `obl` |
+| IA | deut. (6) | `nummod` |
 
 ---
 
@@ -1441,10 +1441,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *sed contra est quod dicitur deut. iu , in principio legis , haec est nostra sapientia et intellectus coram populis .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 5 | `csubj:pass` |
-| IA | 5 | `advcl` |
+| Gold | dicitur (5) | `csubj:pass` |
+| IA | dicitur (5) | `advcl` |
 
 ---
 
@@ -1452,10 +1452,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *respondeo dicendum quod haec doctrina maxime sapientia est inter omnes sapientias humanas , non quidem in aliquo genere tantum , sed simpliciter .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 2 | `csubj:pass` |
-| IA | 2 | `ccomp` |
+| Gold | dicendum (2) | `csubj:pass` |
+| IA | dicendum (2) | `ccomp` |
 
 ---
 
@@ -1463,10 +1463,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *respondeo dicendum quod haec doctrina maxime sapientia est inter omnes sapientias humanas , non quidem in aliquo genere tantum , sed simpliciter .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 18 | `mark` |
-| IA | 18 | `case` |
+| Gold | genere (18) | `mark` |
+| IA | genere (18) | `case` |
 
 ---
 
@@ -1474,10 +1474,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *ut in genere aedificii , artifex qui disponit formam domus , dicitur sapiens et architector , respectu inferiorum artificum , qui dolant ligna uel parant lapides , unde dicitur i cor. iii , ut sapiens architector fundamentum posui .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 12 | `mark` |
-| IA | 12 | `advmod` |
+| Gold | dicitur (12) | `mark` |
+| IA | dicitur (12) | `advmod` |
 
 ---
 
@@ -1485,10 +1485,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *ut in genere aedificii , artifex qui disponit formam domus , dicitur sapiens et architector , respectu inferiorum artificum , qui dolant ligna uel parant lapides , unde dicitur i cor. iii , ut sapiens architector fundamentum posui .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 8 | `punct` |
-| IA | 6 | `punct` |
+| Gold | disponit (8) | `punct` |
+| IA | artifex (6) | `punct` |
 
 ---
 
@@ -1496,10 +1496,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *ut in genere aedificii , artifex qui disponit formam domus , dicitur sapiens et architector , respectu inferiorum artificum , qui dolant ligna uel parant lapides , unde dicitur i cor. iii , ut sapiens architector fundamentum posui .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 19 | `acl` |
-| IA | 19 | `acl:relcl` |
+| Gold | artificum (19) | `acl` |
+| IA | artificum (19) | `acl:relcl` |
 
 ---
 
@@ -1507,10 +1507,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *ut in genere aedificii , artifex qui disponit formam domus , dicitur sapiens et architector , respectu inferiorum artificum , qui dolant ligna uel parant lapides , unde dicitur i cor. iii , ut sapiens architector fundamentum posui .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 29 | `advmod` |
-| IA | 29 | `advmod:lmod` |
+| Gold | dicitur (29) | `advmod` |
+| IA | dicitur (29) | `advmod:lmod` |
 
 ---
 
@@ -1518,10 +1518,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *ut in genere aedificii , artifex qui disponit formam domus , dicitur sapiens et architector , respectu inferiorum artificum , qui dolant ligna uel parant lapides , unde dicitur i cor. iii , ut sapiens architector fundamentum posui .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 29 | `obl` |
-| IA | 31 | `nummod` |
+| Gold | dicitur (29) | `obl` |
+| IA | cor. (31) | `nummod` |
 
 ---
 
@@ -1529,10 +1529,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *et rursus , in genere totius humanae uitae , prudens sapiens dicitur , inquantum ordinat humanos actus ad debitum finem , unde dicitur prou. x , sapientia est uiro prudentia .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 23 | `advmod` |
-| IA | 23 | `advmod:lmod` |
+| Gold | dicitur (23) | `advmod` |
+| IA | dicitur (23) | `advmod:lmod` |
 
 ---
 
@@ -1540,10 +1540,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *et rursus , in genere totius humanae uitae , prudens sapiens dicitur , inquantum ordinat humanos actus ad debitum finem , unde dicitur prou. x , sapientia est uiro prudentia .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 23 | `obl` |
-| IA | 24 | `nummod` |
+| Gold | dicitur (23) | `obl` |
+| IA | prou. (24) | `nummod` |
 
 ---
 
@@ -1551,10 +1551,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *et rursus , in genere totius humanae uitae , prudens sapiens dicitur , inquantum ordinat humanos actus ad debitum finem , unde dicitur prou. x , sapientia est uiro prudentia .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 30 | `obl` |
-| IA | 30 | `obl:arg` |
+| Gold | prudentia (30) | `obl` |
+| IA | prudentia (30) | `obl:arg` |
 
 ---
 
@@ -1562,10 +1562,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *ille igitur qui considerat simpliciter altissimam causam totius uniuersi , quae deus est , maxime sapiens dicitur , unde et sapientia dicitur esse diuinorum cognitio , ut patet per augustinum , xii de trinitate .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 17 | `discourse` |
-| IA | 17 | `advmod` |
+| Gold | dicitur (17) | `discourse` |
+| IA | dicitur (17) | `advmod` |
 
 ---
 
@@ -1573,10 +1573,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *ille igitur qui considerat simpliciter altissimam causam totius uniuersi , quae deus est , maxime sapiens dicitur , unde et sapientia dicitur esse diuinorum cognitio , ut patet per augustinum , xii de trinitate .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 7 | `acl:relcl` |
-| IA | 12 | `nsubj` |
+| Gold | causam (7) | `acl:relcl` |
+| IA | deus (12) | `nsubj` |
 
 ---
 
@@ -1584,10 +1584,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *ille igitur qui considerat simpliciter altissimam causam totius uniuersi , quae deus est , maxime sapiens dicitur , unde et sapientia dicitur esse diuinorum cognitio , ut patet per augustinum , xii de trinitate .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 11 | `nsubj` |
-| IA | 7 | `acl:relcl` |
+| Gold | quae (11) | `nsubj` |
+| IA | causam (7) | `acl:relcl` |
 
 ---
 
@@ -1595,10 +1595,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *ille igitur qui considerat simpliciter altissimam causam totius uniuersi , quae deus est , maxime sapiens dicitur , unde et sapientia dicitur esse diuinorum cognitio , ut patet per augustinum , xii de trinitate .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 11 | `cop` |
-| IA | 12 | `cop` |
+| Gold | quae (11) | `cop` |
+| IA | deus (12) | `cop` |
 
 ---
 
@@ -1606,10 +1606,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *ille igitur qui considerat simpliciter altissimam causam totius uniuersi , quae deus est , maxime sapiens dicitur , unde et sapientia dicitur esse diuinorum cognitio , ut patet per augustinum , xii de trinitate .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 22 | `advmod` |
-| IA | 22 | `advmod:lmod` |
+| Gold | dicitur (22) | `advmod` |
+| IA | dicitur (22) | `advmod:lmod` |
 
 ---
 
@@ -1617,10 +1617,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *sacra autem doctrina propriissime determinat de deo secundum quod est altissima causa , quia non solum quantum ad illud quod est per creaturas cognoscibile ( quod philosophi cognouerunt , ut dicitur rom. i , quod notum est dei , manifestum est illis ) ; sed etiam quantum ad id quod notum est sibi soli de seipso , et aliis per reuelationem communicatum .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 33 | `nmod` |
-| IA | 31 | `obl` |
+| Gold | i (33) | `nmod` |
+| IA | dicitur (31) | `obl` |
 
 ---
 
@@ -1628,10 +1628,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *sacra autem doctrina propriissime determinat de deo secundum quod est altissima causa , quia non solum quantum ad illud quod est per creaturas cognoscibile ( quod philosophi cognouerunt , ut dicitur rom. i , quod notum est dei , manifestum est illis ) ; sed etiam quantum ad id quod notum est sibi soli de seipso , et aliis per reuelationem communicatum .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 31 | `obl` |
-| IA | 32 | `nummod` |
+| Gold | dicitur (31) | `obl` |
+| IA | rom. (32) | `nummod` |
 
 ---
 
@@ -1639,10 +1639,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *sacra autem doctrina propriissime determinat de deo secundum quod est altissima causa , quia non solum quantum ad illud quod est per creaturas cognoscibile ( quod philosophi cognouerunt , ut dicitur rom. i , quod notum est dei , manifestum est illis ) ; sed etiam quantum ad id quod notum est sibi soli de seipso , et aliis per reuelationem communicatum .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 51 | `nsubj` |
-| IA | 51 | `nsubj:pass` |
+| Gold | notum (51) | `nsubj` |
+| IA | notum (51) | `nsubj:pass` |
 
 ---
 
@@ -1650,10 +1650,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *sacra autem doctrina propriissime determinat de deo secundum quod est altissima causa , quia non solum quantum ad illud quod est per creaturas cognoscibile ( quod philosophi cognouerunt , ut dicitur rom. i , quod notum est dei , manifestum est illis ) ; sed etiam quantum ad id quod notum est sibi soli de seipso , et aliis per reuelationem communicatum .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 49 | `acl` |
-| IA | 49 | `acl:relcl` |
+| Gold | id (49) | `acl` |
+| IA | id (49) | `acl:relcl` |
 
 ---
 
@@ -1661,10 +1661,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *unde sacra doctrina maxime dicitur sapientia .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 5 | `advmod` |
-| IA | 5 | `advmod:lmod` |
+| Gold | dicitur (5) | `advmod` |
+| IA | dicitur (5) | `advmod:lmod` |
 
 ---
 
@@ -1672,10 +1672,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *ad primum ergo dicendum quod sacra doctrina non supponit sua principia ab aliqua scientia humana , sed a scientia diuina , a qua , sicut a summa sapientia , omnis nostra cognitio ordinatur .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 4 | `discourse` |
-| IA | 4 | `advmod` |
+| Gold | dicendum (4) | `discourse` |
+| IA | dicendum (4) | `advmod` |
 
 ---
 
@@ -1683,10 +1683,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *ad primum ergo dicendum quod sacra doctrina non supponit sua principia ab aliqua scientia humana , sed a scientia diuina , a qua , sicut a summa sapientia , omnis nostra cognitio ordinatur .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 14 | `advmod:neg` |
-| IA | 9 | `advmod:neg` |
+| Gold | scientia (14) | `advmod:neg` |
+| IA | supponit (9) | `advmod:neg` |
 
 ---
 
@@ -1694,10 +1694,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *ad primum ergo dicendum quod sacra doctrina non supponit sua principia ab aliqua scientia humana , sed a scientia diuina , a qua , sicut a summa sapientia , omnis nostra cognitio ordinatur .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 33 | `obl` |
-| IA | 33 | `obl:agent` |
+| Gold | ordinatur (33) | `obl` |
+| IA | ordinatur (33) | `obl:agent` |
 
 ---
 
@@ -1705,10 +1705,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *ad primum ergo dicendum quod sacra doctrina non supponit sua principia ab aliqua scientia humana , sed a scientia diuina , a qua , sicut a summa sapientia , omnis nostra cognitio ordinatur .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 33 | `advcl:cmp` |
-| IA | 33 | `advcl` |
+| Gold | ordinatur (33) | `advcl:cmp` |
+| IA | ordinatur (33) | `advcl` |
 
 ---
 
@@ -1716,10 +1716,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *ad primum ergo dicendum quod sacra doctrina non supponit sua principia ab aliqua scientia humana , sed a scientia diuina , a qua , sicut a summa sapientia , omnis nostra cognitio ordinatur .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 32 | `amod` |
-| IA | 32 | `det` |
+| Gold | cognitio (32) | `amod` |
+| IA | cognitio (32) | `det` |
 
 ---
 
@@ -1727,10 +1727,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *ad secundum dicendum quod aliarum scientiarum principia uel sunt per se nota , et probari non possunt , uel per aliquam rationem naturalem probantur in aliqua alia scientia .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 12 | `nsubj:pass` |
-| IA | 12 | `nsubj` |
+| Gold | nota (12) | `nsubj:pass` |
+| IA | nota (12) | `nsubj` |
 
 ---
 
@@ -1738,10 +1738,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *ad secundum dicendum quod aliarum scientiarum principia uel sunt per se nota , et probari non possunt , uel per aliquam rationem naturalem probantur in aliqua alia scientia .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 12 | `aux:pass` |
-| IA | 12 | `cop` |
+| Gold | nota (12) | `aux:pass` |
+| IA | nota (12) | `cop` |
 
 ---
 
@@ -1749,10 +1749,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *ad secundum dicendum quod aliarum scientiarum principia uel sunt per se nota , et probari non possunt , uel per aliquam rationem naturalem probantur in aliqua alia scientia .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 24 | `obl` |
-| IA | 24 | `obl:lmod` |
+| Gold | probantur (24) | `obl` |
+| IA | probantur (24) | `obl:lmod` |
 
 ---
 
@@ -1760,10 +1760,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *propria autem huius scientiae cognitio est , quae est per reuelationem , non autem quae est per naturalem rationem .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 5 | `amod` |
-| IA | 0 | `root` |
+| Gold | cognitio (5) | `amod` |
+| IA | ROOT (0) | `root` |
 
 ---
 
@@ -1771,10 +1771,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *propria autem huius scientiae cognitio est , quae est per reuelationem , non autem quae est per naturalem rationem .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 5 | `discourse` |
-| IA | 1 | `discourse` |
+| Gold | cognitio (5) | `discourse` |
+| IA | propria (1) | `discourse` |
 
 ---
 
@@ -1782,10 +1782,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *propria autem huius scientiae cognitio est , quae est per reuelationem , non autem quae est per naturalem rationem .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 0 | `root` |
-| IA | 1 | `nsubj` |
+| Gold | ROOT (0) | `root` |
+| IA | propria (1) | `nsubj` |
 
 ---
 
@@ -1793,10 +1793,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *propria autem huius scientiae cognitio est , quae est per reuelationem , non autem quae est per naturalem rationem .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 5 | `cop` |
-| IA | 1 | `cop` |
+| Gold | cognitio (5) | `cop` |
+| IA | propria (1) | `cop` |
 
 ---
 
@@ -1804,10 +1804,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *propria autem huius scientiae cognitio est , quae est per reuelationem , non autem quae est per naturalem rationem .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 19 | `orphan` |
-| IA | 19 | `advmod:neg` |
+| Gold | rationem (19) | `orphan` |
+| IA | rationem (19) | `advmod:neg` |
 
 ---
 
@@ -1815,10 +1815,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *propria autem huius scientiae cognitio est , quae est per reuelationem , non autem quae est per naturalem rationem .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 5 | `punct` |
-| IA | 1 | `punct` |
+| Gold | cognitio (5) | `punct` |
+| IA | propria (1) | `punct` |
 
 ---
 
@@ -1826,10 +1826,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *et ideo non pertinet ad eam probare principia aliarum scientiarum , sed solum iudicare de eis , quidquid enim in aliis scientiis inuenitur ueritati huius scientiae repugnans , totum condemnatur ut falsum , unde dicitur ii cor. x , consilia destruentes , et omnem altitudinem extollentem se aduersus scientiam dei .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 23 | `obl` |
-| IA | 23 | `obl:lmod` |
+| Gold | inuenitur (23) | `obl` |
+| IA | inuenitur (23) | `obl:lmod` |
 
 ---
 
@@ -1837,10 +1837,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *et ideo non pertinet ad eam probare principia aliarum scientiarum , sed solum iudicare de eis , quidquid enim in aliis scientiis inuenitur ueritati huius scientiae repugnans , totum condemnatur ut falsum , unde dicitur ii cor. x , consilia destruentes , et omnem altitudinem extollentem se aduersus scientiam dei .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 30 | `csubj:relcl` |
-| IA | 29 | `acl:relcl` |
+| Gold | condemnatur (30) | `csubj:relcl` |
+| IA | totum (29) | `acl:relcl` |
 
 ---
 
@@ -1848,10 +1848,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *et ideo non pertinet ad eam probare principia aliarum scientiarum , sed solum iudicare de eis , quidquid enim in aliis scientiis inuenitur ueritati huius scientiae repugnans , totum condemnatur ut falsum , unde dicitur ii cor. x , consilia destruentes , et omnem altitudinem extollentem se aduersus scientiam dei .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 27 | `punct` |
-| IA | 23 | `punct` |
+| Gold | repugnans (27) | `punct` |
+| IA | inuenitur (23) | `punct` |
 
 ---
 
@@ -1859,10 +1859,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *ad tertium dicendum quod , cum iudicium ad sapientem pertineat , secundum duplicem modum iudicandi , dupliciter sapientia accipitur .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 10 | `obl` |
-| IA | 10 | `obl:arg` |
+| Gold | pertineat (10) | `obl` |
+| IA | pertineat (10) | `obl:arg` |
 
 ---
 
@@ -1870,10 +1870,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *contingit enim aliquem iudicare , uno modo per modum inclinationis , sicut qui habet habitum uirtutis , recte iudicat de his quae sunt secundum uirtutem agenda , inquantum ad illa inclinatur , unde et in x ethic. dicitur quod uirtuosus est mensura et regula actuum humanorum .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 19 | `csubj` |
-| IA | 19 | `nsubj` |
+| Gold | iudicat (19) | `csubj` |
+| IA | iudicat (19) | `nsubj` |
 
 ---
 
@@ -1881,10 +1881,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *contingit enim aliquem iudicare , uno modo per modum inclinationis , sicut qui habet habitum uirtutis , recte iudicat de his quae sunt secundum uirtutem agenda , inquantum ad illa inclinatur , unde et in x ethic. dicitur quod uirtuosus est mensura et regula actuum humanorum .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 1 | `advcl:cmp` |
-| IA | 4 | `advcl` |
+| Gold | contingit (1) | `advcl:cmp` |
+| IA | iudicare (4) | `advcl` |
 
 ---
 
@@ -1892,10 +1892,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *contingit enim aliquem iudicare , uno modo per modum inclinationis , sicut qui habet habitum uirtutis , recte iudicat de his quae sunt secundum uirtutem agenda , inquantum ad illa inclinatur , unde et in x ethic. dicitur quod uirtuosus est mensura et regula actuum humanorum .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 19 | `obl` |
-| IA | 19 | `obl:arg` |
+| Gold | iudicat (19) | `obl` |
+| IA | iudicat (19) | `obl:arg` |
 
 ---
 
@@ -1903,10 +1903,10 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *contingit enim aliquem iudicare , uno modo per modum inclinationis , sicut qui habet habitum uirtutis , recte iudicat de his quae sunt secundum uirtutem agenda , inquantum ad illa inclinatur , unde et in x ethic. dicitur quod uirtuosus est mensura et regula actuum humanorum .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 26 | `advcl` |
-| IA | 19 | `advcl` |
+| Gold | agenda (26) | `advcl` |
+| IA | iudicat (19) | `advcl` |
 
 ---
 
@@ -1914,9 +1914,9 @@ Sur les 167 cas tranchés : Gold 78 (46.7%) vs IA 89 (53.3%)
 
 > *contingit enim aliquem iudicare , uno modo per modum inclinationis , sicut qui habet habitum uirtutis , recte iudicat de his quae sunt secundum uirtutem agenda , inquantum ad illa inclinatur , unde et in x ethic. dicitur quod uirtuosus est mensura et regula actuum humanorum .*
 
-| | Head | Deprel |
+| | Tête | Relation |
 |---|---|---|
-| Gold | 38 | `advmod` |
-| IA | 38 | `advmod:lmod` |
+| Gold | dicitur (38) | `advmod` |
+| IA | dicitur (38) | `advmod:lmod` |
 
 ---
